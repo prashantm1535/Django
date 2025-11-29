@@ -21,6 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # path('todos/', include('todos.urls')),
     path('', include('todos.urls')),
+    path('', include('todos.urls')),
 ]
 
 # if 'todos.urls' not found, add the following code instead
